@@ -21,3 +21,7 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+
+  /*fetch ("https://api.clarifai.com/v2/models/" + 'face-detection', + "/outputs", returnClarifaiRequestOptions(this.state.input))
+    .then(response => response.json())*/

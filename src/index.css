@@ -1,13 +1,21 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  font-family: SWFont2;
+  background-image: url('swbg.jpg');
+  background-size: cover;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+button, p, input {
+  cursor: url(vadercursor.cur), auto;
+}
+
+@font-face {
+  font-family: SWFont;
+  src: url(Starjout.ttf);
+}
+
+@font-face {
+  font-family: SWFont2;
+  src: url(STJEDISE.TTF);
 }
